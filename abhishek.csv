@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1010" it="0" lt="1010" ct="744" ts="1670498142417" s="true" lb="Token Generation" rc="200" rm="OK" tn="Token 1-1" dt="text" by="408" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>https://qa-auth.drxwebservices.com/v1/auth/token?format=json</java.net.URL>
+</httpSample>
+<httpSample t="1148" it="0" lt="1148" ct="745" ts="1670498143455" s="true" lb="Create Session - Providers" rc="200" rm="OK" tn="Providers 2-1" dt="text" by="500" sby="485" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>https://qa.drxwebservices.com/apiplancompare/v1/Session/</java.net.URL>
+</httpSample>
+<httpSample t="361" it="0" lt="361" ct="0" ts="1670498144607" s="true" lb="Add Providers to Session" rc="200" rm="OK" tn="Providers 2-1" dt="" by="211" sby="446" ng="1" na="1">
+  <java.net.URL>https://qa.drxwebservices.com/apiplancompare/v1/Session/Z103W9YA/Providers</java.net.URL>
+</httpSample>
+<httpSample t="393" it="0" lt="393" ct="0" ts="1670498144970" s="true" lb="Replace Providers in Session" rc="200" rm="OK" tn="Providers 2-1" dt="" by="211" sby="491" ng="1" na="1">
+  <java.net.URL>https://qa.drxwebservices.com/apiplancompare/v1/Session/Z103W9YA/Providers</java.net.URL>
+</httpSample>
+<httpSample t="357" it="0" lt="0" ct="0" ts="1670498145369" s="true" lb="Remove Providers from Session" rc="204" rm="No Content" tn="Providers 2-1" dt="" by="200" sby="455" ng="1" na="1">
+  <java.net.URL>https://qa.drxwebservices.com/apiplancompare/v1/Session/Z103W9YA/Providers/</java.net.URL>
+</httpSample>
+<httpSample t="1300" it="0" lt="1300" ct="755" ts="1670498145739" s="true" lb="Create Session - MemberSearch" rc="200" rm="OK" tn="MemberSearch-Enrollement 3-1" dt="text" by="396" sby="424" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>https://qa.drxwebservices.com/APIPlanCompare/v1/Session</java.net.URL>
+</httpSample>
+<httpSample t="624" it="0" lt="624" ct="0" ts="1670498147043" s="true" lb="Get Member Enrollements" rc="200" rm="OK" tn="MemberSearch-Enrollement 3-1" dt="text" by="4662" sby="406" ng="1" na="1">
+  <java.net.URL>https://qa.drxwebservices.com/APIPlanCompare/v1/session/M69026MA/MemberSearch/GetMemberEnrollments?firstName=DrxTest&amp;lastName=DrxTest&amp;dateOfBirth=1970-01-01&amp;applicationStartDate=2021-11-19</java.net.URL>
+</httpSample>
+<httpSample t="1331" it="0" lt="1330" ct="781" ts="1670498147716" s="true" lb="Create Session - MemberSearch" rc="200" rm="OK" tn="MemberSearch - EnrollmentPDF 4-1" dt="text" by="396" sby="424" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>https://qa.drxwebservices.com/APIPlanCompare/v1/Session</java.net.URL>
+</httpSample>
+<httpSample t="24339" it="0" lt="1034" ct="0" ts="1670498149059" s="true" lb="Get Broker Member EnrollmentPDF" rc="200" rm="OK" tn="MemberSearch - EnrollmentPDF 4-1" dt="text" by="3412229" sby="360" ng="1" na="1">
+  <java.net.URL>https://qa.drxwebservices.com/APIPlanCompare/v1/session/MWVYTZDA/MemberSearch/GetBrokerMemberEnrollmentPdf?confirmationNumber=A54941699919523M</java.net.URL>
+</httpSample>
+
+</testResults>
